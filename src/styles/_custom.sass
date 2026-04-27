@@ -3,12 +3,18 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 85%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 37%
+    right: 27%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 67%
+    right: 80%
+    width: 17%
 
 @keyframes float1
   0%
@@ -16,15 +22,44 @@
   100%
     transform: translateY(0px)
   
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
 
+.banner-principal  
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white  
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/banner-interno.png") !important 
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 500px !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.boton *, .boton--sm * 
+  color: #fff !important
+.barra-avance__boton--regresar span 
+  color:#fff !important
+
