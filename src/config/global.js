@@ -36,27 +36,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Interpretación de prendas deportivas infantiles',
+        titulo:
+          'Administración de contenidos y gestión de la información dinámica',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Camiseta y camisilla básica para niño(a)',
+            titulo: 'Naturaleza y edición de las entradas dinámicas',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Trazo de camiseta manga ranglán',
+            titulo: 'Flujo de trabajo en la administración de entradas',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Trazo de sudadera de punto',
+            titulo: 'Gestión integral de la biblioteca de medios',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Trazo de mallas (vestidos de baño)',
+            titulo: 'Moderación y administración de comentarios',
             hash: 't_1_4',
           },
         ],
@@ -64,38 +65,70 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Escalado de prendas de vestir',
+        titulo: 'Extensión funcional del sitio web mediante plugins',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Concepto y objetivos del escalado',
+            titulo: 'Fundamentación técnica de los plugins',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Principios técnicos del escalado en prendas de vestir',
+            titulo: 'Procedimientos de instalación y activación',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Tipos de escalado: proporcional, combinado y diferencial',
+            titulo:
+              'Criterios de usabilidad y selección de plugins en proyectos reales',
             hash: 't_2_3',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Diseño de la experiencia visual y apariencia',
+        desarrolloContenidos: true,
+        subMenu: [
           {
-            numero: '2.4',
-            titulo: 'Escalado bibásico',
-            hash: 't_2_4',
+            numero: '3.1',
+            titulo: 'Selección, instalación y configuración de temas',
+            hash: 't_3_1',
           },
           {
-            numero: '2.5',
-            titulo: 'Escalado monobásico y por coordenadas',
-            hash: 't_2_5',
+            numero: '3.2',
+            titulo: 'Personalización avanzada de la interfaz',
+            hash: 't_3_2',
           },
           {
-            numero: '2.6',
-            titulo: 'Separación de tallas y marcación',
-            hash: 't_2_6',
+            numero: '3.3',
+            titulo: 'Estructuración mediante widgets y elementos modulares',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Respaldo, migración y publicación del ecosistema digital',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Estrategias de preservación: tareas de respaldo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Procesos de exportación e importación de datos',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Pruebas y publicación: del servidor local a la nube',
+            hash: 't_4_3',
           },
         ],
       },
@@ -143,125 +176,110 @@ export default {
 
   glosario: [
     {
-      termino: 'Bocamanga',
+      termino: 'Accesibilidad Web',
       significado:
-        'extremo inferior de la manga de una prenda, cuyo ancho se determina en el patrón según el diseño y el tipo de tejido, y que puede llevar acabados como puños, dobladillo o ribete elástico.',
+        'Conjunto de normativas y técnicas de diseño que garantizan que un sitio web pueda ser utilizado y comprendido por cualquier persona, independientemente de sus capacidades visuales, auditivas, cognitivas o motrices.',
     },
     {
-      termino: 'Capucha',
+      termino: 'Archivo WXR (WordPress extended RSS)',
       significado:
-        'pieza complementaria de forma curva que se ensambla al escote de una prenda para cubrir la cabeza, trazada a partir de un rectángulo base con ajustes en sus contornos según las proporciones del cuello y la cabeza infantil.',
+        'Documento en formato XML generado por la herramienta de exportación nativa de WordPress, utilizado para transferir contenidos (entradas, páginas, menús y metadatos) entre diferentes instalaciones del CMS.',
     },
     {
-      termino: 'Copa de manga',
+      termino: '<i>Back End</i>',
       significado:
-        'parte superior de la pieza de manga que se une a la sisa del corpiño, cuya altura y curvatura determinan el ajuste, la movilidad y la caída del brazo sobre la prenda.',
+        'Panel de control o área de administración privada de WordPress. Es el entorno de trabajo al que acceden los usuarios con credenciales para publicar contenidos, instalar complementos y gestionar la base de datos.',
     },
     {
-      termino: 'Corpiño',
+      termino: 'Base de Datos (MySQL/MariaDB)',
       significado:
-        'pieza principal de una prenda superior que cubre el tronco del cuerpo, compuesta por las piezas delantera y trasera, y desde la cual se derivan las demás piezas del patrón.',
+        'Sistema informático estructurado que almacena de manera relacional toda la información textual, configuraciones de usuario y taxonomías del sitio web, permitiendo su recuperación dinámica.',
     },
     {
-      termino: 'Escalado bibásico',
+      termino: 'Biblioteca de Medios',
       significado:
-        'método de graduación que utiliza dos tallas de referencia ubicadas en los extremos de la serie para calcular proporcionalmente los incrementos de cada talla intermedia.',
+        'Repositorio centralizado dentro del panel de administración donde se cargan, optimizan y organizan los recursos multimedia (imágenes, documentos, audios) para su posterior inserción en el diseño web.',
     },
     {
-      termino: 'Escalado diferencial',
+      termino: 'Caché Web',
       significado:
-        'método de graduación que aplica ajustes puntuales y específicos en zonas determinadas del patrón, respondiendo a necesidades ergonómicas o funcionales concretas de la prenda.',
+        'Tecnología de optimización que almacena copias temporales de las páginas dinámicas generadas por WordPress para servirlas de forma inmediata a los visitantes recurrentes, reduciendo la carga del servidor.',
     },
     {
-      termino: 'Escalado monobásico',
+      termino: 'Dominio',
       significado:
-        'método de graduación que parte de una única talla base central para calcular los desplazamientos hacia las tallas superiores e inferiores mediante incrementos definidos en el cuadro de tallas.',
+        'Nombre único y alfanumérico que identifica a un sitio web en la red mundial (por ejemplo: sena.edu.co), funcionando como una dirección mnemotécnica para localizar los servidores donde se alojan los archivos.',
     },
     {
-      termino: 'Escalado proporcional',
+      termino: '<i>Front End</i>',
       significado:
-        'método de graduación que aplica incrementos uniformes y constantes en todas las áreas del patrón, manteniendo las proporciones generales del diseño original entre tallas consecutivas.',
+        'Fachada pública del sitio web. Es la interfaz visual y responsiva con la que interactúan los visitantes a través de sus navegadores, controlada estéticamente por el tema activo.',
     },
     {
-      termino: 'Holgura',
+      termino: '<i>Gutenberg</i> (editor de bloques)',
       significado:
-        'valor adicional incorporado a las medidas corporales durante el trazado del patrón, con el fin de garantizar comodidad, funcionalidad y libertad de movimiento según el tipo de tejido y la prenda.',
+        'Interfaz nativa de redacción en WordPress que permite maquetar y diseñar el contenido fragmentándolo en bloques independientes (párrafos, imágenes, galerías, botones), facilitando la diagramación sin uso de código.',
     },
     {
-      termino: 'Manga ranglán',
+      termino: '<i>Hosting</i> (alojamiento Web)',
       significado:
-        'tipo de manga cuya pieza se extiende desde el escote hasta el costado, eliminando la costura de hombro convencional y ampliando el rango de movimiento articular en la zona del brazo.',
+        'Servicio tecnológico provisto por una infraestructura de servidores interconectados ininterrumpidamente a internet, que alquila espacio de almacenamiento para alojar los archivos y bases de datos de un portal público.',
     },
     {
-      termino: 'Marcación de patrones',
+      termino: '<i>Localhost</i> (Servidor Local)',
       significado:
-        'proceso mediante el cual se inscribe en cada pieza del patrón la información técnica indispensable para su uso en producción, incluyendo nombre, talla, dirección del hilo, cantidad de corte y piquetes de ensamble.',
+        'Entorno de software instalado en el ordenador personal del desarrollador que emula las condiciones de un servidor de internet. Se utiliza para el diseño, pruebas y maquetación sin riesgos antes de la publicación oficial.',
     },
     {
-      termino: 'Nido de escalado',
+      termino: '<i>Plugin</i>',
       significado:
-        'representación gráfica que resulta de superponer todas las tallas de una serie sobre un mismo patrón base, utilizada como punto de partida para la separación y marcación individual de cada talla.',
+        'Complemento o extensión de software que se instala sobre el núcleo de WordPress para añadir funcionalidades especializadas que la plataforma no incorpora por defecto (ejemplo: pasarelas de pago, cortafuegos, foros).',
     },
     {
-      termino: 'Pretina',
+      termino: 'Responsividad (Diseño Responsivo)',
       significado:
-        'banda de tejido que se aplica en la parte inferior de prendas superiores o en la cintura de prendas inferiores, trazada con medidas reducidas respecto al contorno corporal para aprovechar la elasticidad del tejido de punto.',
+        'Principio arquitectónico del diseño web que asegura que la disposición geométrica de la interfaz se adapte, escale y reordene fluidamente según el tamaño de la pantalla del dispositivo utilizado (móvil, tableta o escritorio).',
     },
     {
-      termino: 'Puntos de control',
+      termino: 'SEO (Optimización para Motores de Búsqueda)',
       significado:
-        'puntos estratégicos identificados en el patrón desde los cuales se originan y regulan los desplazamientos durante el proceso de escalado, garantizando la coherencia dimensional entre tallas.',
+        'Conjunto de estrategias técnicas y de contenido orientadas a mejorar la visibilidad y el posicionamiento de un sitio web en los resultados orgánicos de buscadores como Google.',
     },
     {
-      termino: 'Tiro',
+      termino: 'Tema (Theme)',
       significado:
-        'medida de profundidad que determina la distancia entre la cintura y la entrepierna en prendas inferiores, cuya correcta graduación es determinante para el ajuste funcional de mallas y pantalones deportivos infantiles.',
+        'Paquete integral de archivos y estilos CSS que determinan la apariencia visual, la paleta de colores, las tipografías y el esquema de distribución de la interfaz pública (Front End) en WordPress.',
+    },
+    {
+      termino: '<i>Widget</i>',
+      significado:
+        'Bloque modular preconfigurado que ejecuta una función o muestra información específica (como un buscador o enlaces de redes sociales) y que se posiciona en áreas estructurales del diseño, como el pie de página o las barras laterales.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Barnfield, J., y Richards, A. (2013). Manual de patronaje de moda: diseño, adaptación y personalización de los patrones de costura. Promopress. ISBN 978-84-92810-82-6.',
+        'Cabello, J. (2021). *WordPress 100 % práctico: aprende a crear sitios web y tiendas online desde cero*. Marcombo.',
       link: '',
     },
     {
       referencia:
-        'Donnanno, A. (2018). Técnicas de patronaje de prendas infantiles de moda: vestidos, camisas, peleles, pantalones, bermudas, chaquetas y abrigos. Promopress.',
+        'Consorcio World Wide Web (W3C). (2023). *Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2*. W3C Recommendation. Recuperado de la biblioteca oficial del W3C.',
       link: '',
     },
     {
       referencia:
-        'Drake, R. L., Vogl, A. W., y Mitchell, A. M. W. (2019). Gray. Anatomía para estudiantes (4.ª ed.). Elsevier. ISBN 978-84-9113-608-8.',
+        'Fundación WordPress. (2024). *Documentación oficial, manual de administración y desarrollo de extensiones*. Codex y Developer Handbook. Recuperado de WordPress.org.',
       link: '',
     },
     {
       referencia:
-        'Esparza Ros, F. (Ed.). (1993). Manual de cineantropometría. Grupo Español de Cineantropometría; Federación Española de Medicina del Deporte (FEMEDE). ISBN 978-84-88100-08-5.',
+        'García, L. M. (2022). *Diseño de interfaces web y experiencia de usuario en entornos formativos digitales*. Editorial Síntesis.',
       link: '',
     },
     {
       referencia:
-        'Gutiérrez Rengifo, L. A., Moncayo Velazco, A. X., Tanaka, K., Kimura, F., y Moreno Brand, D. (2011). Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje (SENA); Agencia de Cooperación Internacional del Japón (JICA).',
-      link: '',
-    },
-    {
-      referencia:
-        'Kawamura, Y. (2005). Fashion-ology: an introduction to fashion studies. Berg Publishers. ISBN 978-1-85973-814-6.',
-      link: '',
-    },
-    {
-      referencia:
-        'Lorenzo, M. R. (2017). Patronaje industrial en textil y piel. Videocinco Editorial. ISBN 978-84-16852-03-1.',
-      link: '',
-    },
-    {
-      referencia:
-        'Nakamichi, T. (2012). Pattern magic, vol. 1: la magia del patronaje. Editorial Gustavo Gili. ISBN 978-84-252-2438-6.',
-      link: '',
-    },
-    {
-      referencia:
-        'Norton, K., y Eston, R. (Eds.). (2019). Kinanthropometry and exercise physiology (4.ª ed.). Routledge. ISBN 978-1-138-23052-1.',
+        'Williams, B., Damstra, D., & Stern, H. (2021). *Desarrollo profesional con WordPress: Diseño, arquitectura y despliegue de plataformas* (4.ª ed.). John Wiley & Sons.',
       link: '',
     },
   ],
@@ -285,13 +303,8 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Paola Angélica Castro Salazar',
-          cargo: 'Experta temática',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora instruccional',
+          nombre: 'Carlos Andres Bonza Reyes',
+          cargo: 'Instructor virtual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
