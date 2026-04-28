@@ -85,7 +85,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img05.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0Un entorno digital estrictamente textual suele presentar altas tasas de abandono. La integración de recursos multimedia es fundamental para retener la atención del usuario, clarificar conceptos complejos y enriquecer la estética general del diseño web. En WordPress, la “biblioteca de medios” funciona como un repositorio centralizado donde se almacenan y gestionan todas las imágenes, documentos PDF, audios y fragmentos de video cargados en la plataforma.
+          p.mb-0 Un entorno digital estrictamente textual suele presentar altas tasas de abandono. La integración de recursos multimedia es fundamental para retener la atención del usuario, clarificar conceptos complejos y enriquecer la estética general del diseño web. En WordPress, la “biblioteca de medios” funciona como un repositorio centralizado donde se almacenan y gestionan todas las imágenes, documentos PDF, audios y fragmentos de video cargados en la plataforma.
             br
             br
             | La administración de medios trasciende la simple acción de cargar archivos desde el ordenador al servidor. Requiere la aplicación rigurosa de principios de optimización web y de normativas de accesibilidad:
