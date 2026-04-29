@@ -25,8 +25,8 @@
     p La información constituye el activo más valioso de cualquier proyecto digital. Un sitio web está expuesto de forma permanente a diversos riesgos, como fallos en actualizaciones, errores humanos, problemas en el servidor o ataques informáticos. En este contexto, la implementación de copias de seguridad (backups) es una práctica obligatoria dentro de la administración web.
     p Un respaldo integral en WordPress requiere la protección de dos componentes fundamentales:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-3.col-9.mb-3.col-md-7
         img(src='@/assets/curso/Tema4/img02.svg', alt='')
       .col-lg-9
         TabsA.color-acento-botones(data-aos="zoom-in-left")
@@ -60,12 +60,12 @@
     p En determinados escenarios, no es necesario trasladar la totalidad del sitio web, sino únicamente su contenido. Por ejemplo, puede requerirse migrar entradas, páginas o usuarios hacia un nuevo entorno sin replicar configuraciones anteriores.
     p WordPress incorpora herramientas nativas que facilitan este proceso desde el submenú “herramientas”:
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10
         .tarjeta--container.row.mb-5
           .col-md.tarjeta.bg07.p-5
             .row.justify-content-center.mb-4
-              .col-lg-4
+              .col-lg-4.col-6.col-md-5
                 figure
                   img(src='@/assets/curso/Tema4/1.svg', alt='Texto que describa la imagen')          
             h3.text-center Exportar
@@ -73,7 +73,7 @@
           
           .col-md.tarjeta.bg08.p-5
             .row.justify-content-center.mb-4
-              .col-lg-4
+              .col-lg-4.col-6.col-md-5
                 figure
                   img(src='@/assets/curso/Tema4/2.svg', alt='Texto que describa la imagen')          
             h3.text-center Importar
@@ -112,29 +112,53 @@
 
     p El proceso de publicación manual incluye las siguientes etapas:
 
-    .fondo02.p-5
-      .tarjeta.tarjeta--gris.p-4
-        PasosB.color-acento-contenido
+    .fondo02.p-5.mb-4(data-aos="zoom-in-left")
+      .tarjeta.tarjeta--gris2.p-4
+        PasosB.color-acento-botones
           .row.justify-content-center(titulo="")
-            .col-lg-5
+            .col-lg-6.mb-3
               figure
                 img(src='@/assets/curso/Tema4/01.svg', alt='Texto que describa la imagen')
             .col-lg-3.mb-4.mb-md-0
               h5 Empaquetado y exportación local
               p Generación de la base de datos en formato .sql y compresión de los archivos del sitio. 
             
-       
-
-          .row(titulo="")
-            .col-md-6
+          .row.justify-content-center(titulo="")
+            .col-lg-6.mb-3
               figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+                img(src='@/assets/curso/Tema4/02.svg', alt='Texto que describa la imagen')
+            .col-lg-3.mb-4.mb-md-0
+              h5 Transferencia de archivos
+              p Envío de los archivos al servidor remoto mediante protocolos seguros como SFTP.
+          
+          .row.justify-content-center(titulo="")
+            .col-lg-6.mb-3
+              figure
+                img(src='@/assets/curso/Tema4/03.svg', alt='Texto que describa la imagen')
+            .col-lg-3.mb-4.mb-md-0
+              h5 Configuración de la base de datos
+              p Creación e importación de la base de datos en el servidor de destino.
+          
+          .row.justify-content-center(titulo="")
+            .col-lg-6.mb-3
+              figure
+                img(src='@/assets/curso/Tema4/04.svg', alt='Texto que describa la imagen')
+            .col-lg-3.mb-4.mb-md-0
+              h5 Sincronización de credenciales
+              p Ajuste del archivo de configuración para establecer la conexión con la nueva base de datos.
+          
+          .row.justify-content-center(titulo="")
+            .col-lg-6.mb-3
+              figure
+                img(src='@/assets/curso/Tema4/05.svg', alt='Texto que describa la imagen')
+            .col-lg-3.mb-4.mb-md-0
+              h5 Sustitución de URL
+              p Actualización de las rutas internas para garantizar el correcto funcionamiento del sitio.
 
-
-
+        
+    p Es recomendable realizar pruebas posteriores a la migración para verificar que todos los elementos del sitio funcionen correctamente, incluyendo enlaces, imágenes y formularios.
+    p Se deben validar aspectos como el rendimiento, la seguridad y la compatibilidad con distintos dispositivos antes de la publicación definitiva.
+    p Otra práctica importante consiste en realizar una copia de seguridad completa antes de iniciar el proceso de migración, con el fin de prevenir pérdidas de información. La correcta ejecución de este proceso permite llevar el sitio web a un entorno de producción de manera segura, garantizando su disponibilidad y correcto funcionamiento para los usuarios finales.
 
 
 
