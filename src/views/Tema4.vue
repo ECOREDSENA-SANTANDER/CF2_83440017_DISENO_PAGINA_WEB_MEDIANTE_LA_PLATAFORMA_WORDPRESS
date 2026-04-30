@@ -22,7 +22,7 @@
     #t_4_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
       h2 4.1 Estrategias de preservación: tareas de respaldo
 
-    p La información constituye el activo más valioso de cualquier proyecto digital. Un sitio web está expuesto de forma permanente a diversos riesgos, como fallos en actualizaciones, errores humanos, problemas en el servidor o ataques informáticos. En este contexto, la implementación de copias de seguridad (backups) es una práctica obligatoria dentro de la administración web.
+    p La información constituye el activo más valioso de cualquier proyecto digital. Un sitio web está expuesto de forma permanente a diversos riesgos, como fallos en actualizaciones, errores humanos, problemas en el servidor o ataques informáticos. En este contexto, la implementación de copias de seguridad (#[em backups]) es una práctica obligatoria dentro de la administración web.
     p Un respaldo integral en WordPress requiere la protección de dos componentes fundamentales:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
@@ -37,7 +37,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Respaldo de los archivos del servidor") 
             .row.justify-content-center.align-items-center.mb-2
               .col-lg-12
-                p Incluye el núcleo del sistema, los plugins, los temas y la biblioteca de medios, donde se almacenan imágenes y documentos. 
+                p Incluye el núcleo del sistema, los #[em plugins], los temas y la biblioteca de medios, donde se almacenan imágenes y documentos. 
 
     .fondo01.p-5(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center.mb-3
@@ -107,7 +107,7 @@
         .col-lg-10.bg02.p-4
           .row.justify-content-center.align-items-center
             .col-lg-10
-              p El desarrollo de sitios web suele iniciarse en entornos locales (localhost), donde es posible diseñar y realizar pruebas sin exposición pública. Sin embargo, el objetivo final es la publicación en internet, lo que implica trasladar el proyecto a un servidor de alojamiento (hosting).
+              p El desarrollo de sitios web suele iniciarse en entornos locales (#[em localhost]), donde es posible diseñar y realizar pruebas sin exposición pública. Sin embargo, el objetivo final es la publicación en internet, lo que implica trasladar el proyecto a un servidor de alojamiento (#[em hosting]).
               P Este proceso requiere especial atención, ya que la base de datos contiene rutas y direcciones que deben ajustarse al nuevo entorno. Una migración incorrecta puede generar errores en la visualización del sitio.
 
     p El proceso de publicación manual incluye las siguientes etapas:

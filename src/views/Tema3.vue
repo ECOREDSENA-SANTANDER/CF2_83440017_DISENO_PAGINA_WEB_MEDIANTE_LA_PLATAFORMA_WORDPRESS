@@ -12,7 +12,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/Tema3/img1.svg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Una vez que la arquitectura de la información está estructurada y las funcionalidades han sido extendidas mediante plugins, el desarrollo del sitio web debe enfocarse en la interfaz visual con la que interactuará el usuario final. El diseño de la experiencia de usuario (UX) y el diseño de la interfaz de usuario (UI) en WordPress no consisten en la creación de elementos gráficos arbitrarios, sino en la aplicación de principios de usabilidad, accesibilidad y psicología del color para facilitar la navegación. En esta fase, el administrador configura el Front End del proyecto, asegurando que la presentación visual responda de manera coherente a las necesidades comunicativas del contexto y cumpla con estándares de calidad y accesibilidad web.
+          p.mb-0 Una vez que la arquitectura de la información está estructurada y las funcionalidades han sido extendidas mediante #[em plugins], el desarrollo del sitio web debe enfocarse en la interfaz visual con la que interactuará el usuario final. El diseño de la experiencia de usuario (UX) y el diseño de la interfaz de usuario (UI) en WordPress no consisten en la creación de elementos gráficos arbitrarios, sino en la aplicación de principios de usabilidad, accesibilidad y psicología del color para facilitar la navegación. En esta fase, el administrador configura el #[em Front End] del proyecto, asegurando que la presentación visual responda de manera coherente a las necesidades comunicativas del contexto y cumpla con estándares de calidad y accesibilidad web.
             br
 
     p El diseño visual debe priorizar la claridad, la coherencia y la facilidad de uso. La organización jerárquica de los contenidos, el uso adecuado de espacios y la consistencia en los elementos gráficos permiten orientar al usuario dentro del sitio web. Una interfaz bien estructurada mejora la comprensión de la información y reduce la carga cognitiva durante la navegación.
@@ -111,22 +111,22 @@
 
     separador
     #t_3_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
-      h2 3.3. Estructuración mediante widgets y elementos modulares
+      h2 3.3. Estructuración mediante #[em widgets] y elementos modulares
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-1.col-4.col-md-3.mb-3
         img(src='@/assets/curso/Tema3/img06.svg', alt='')
       .col-lg-11
-        p Para comprender la diagramación periférica del sitio, es necesario estudiar los Widgets. Un widget es un bloque modular de código preconfigurado que ejecuta una funcionalidad específica o muestra un contenido determinado (por ejemplo, una barra de búsqueda, una lista de las entradas más recientes, un calendario o un bloque de texto libre).
+        p Para comprender la diagramación periférica del sitio, es necesario estudiar los #[em Widgets]. Un #[em widget] es un bloque modular de código preconfigurado que ejecuta una funcionalidad específica o muestra un contenido determinado (por ejemplo, una barra de búsqueda, una lista de las entradas más recientes, un calendario o un bloque de texto libre).
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-5
-        p.mb-4 Históricamente, el uso de widgets estaba restringido a las barras laterales (sidebars). Sin embargo, en el diseño web moderno y con la evolución de WordPress, las áreas de widgets se han expandido para construir secciones estructurales críticas como el pie de página (footer). El pie de página es un espacio de alto valor estratégico; allí se ubican elementos que brindan confianza y soporte al usuario, como los enlaces a las políticas de privacidad, los datos de contacto físico, los íconos de redes sociales y los sellos de certificación de la entidad.
-        p.bg001.p-4 Al igual que en el editor de entradas, la gestión de widgets ha adoptado el sistema de bloques. Esto permite al diseñador web insertar galerías, botones o códigos HTML personalizados directamente en el pie de página con una facilidad sin precedentes. El diseño de estas áreas debe regirse por la claridad: un pie de página saturado de módulos irrelevantes distrae al usuario de la navegación principal y contraviene las normas mínimas de acceso y diagramación.
+        p.mb-4 Históricamente, el uso de #[em widgets] estaba restringido a las barras laterales (#[em sidebars]). Sin embargo, en el diseño web moderno y con la evolución de WordPress, las áreas de widgets se han expandido para construir secciones estructurales críticas como el pie de página (#[em footer]). El pie de página es un espacio de alto valor estratégico; allí se ubican elementos que brindan confianza y soporte al usuario, como los enlaces a las políticas de privacidad, los datos de contacto físico, los íconos de redes sociales y los sellos de certificación de la entidad.
+        p.bg001.p-4 Al igual que en el editor de entradas, la gestión de #[em widgets] ha adoptado el sistema de bloques. Esto permite al diseñador web insertar galerías, botones o códigos HTML personalizados directamente en el pie de página con una facilidad sin precedentes. El diseño de estas áreas debe regirse por la claridad: un pie de página saturado de módulos irrelevantes distrae al usuario de la navegación principal y contraviene las normas mínimas de acceso y diagramación.
       .col-lg-7
         img(src='@/assets/curso/Tema3/img08.svg', alt='')
-    p La correcta selección y distribución de los widgets permite fortalecer la funcionalidad del sitio web sin alterar su estructura principal. La inclusión de elementos como formularios de contacto, enlaces rápidos o secciones informativas complementarias puede mejorar la interacción del usuario y facilitar el acceso a contenidos relevantes.
-    p De igual manera, es importante mantener un equilibrio entre funcionalidad y simplicidad en el uso de widgets. Una adecuada planificación de estos elementos contribuye a una navegación más organizada, evita la sobrecarga visual y garantiza que cada componente cumpla un propósito claro dentro de la arquitectura del sitio web.
+    p La correcta selección y distribución de los #[em widgets] permite fortalecer la funcionalidad del sitio web sin alterar su estructura principal. La inclusión de elementos como formularios de contacto, enlaces rápidos o secciones informativas complementarias puede mejorar la interacción del usuario y facilitar el acceso a contenidos relevantes.
+    p De igual manera, es importante mantener un equilibrio entre funcionalidad y simplicidad en el uso de #[em widgets]. Una adecuada planificación de estos elementos contribuye a una navegación más organizada, evita la sobrecarga visual y garantiza que cada componente cumpla un propósito claro dentro de la arquitectura del sitio web.
 
 
 

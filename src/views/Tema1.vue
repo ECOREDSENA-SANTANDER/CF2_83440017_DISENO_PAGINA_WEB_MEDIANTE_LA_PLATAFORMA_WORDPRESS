@@ -22,7 +22,7 @@
         .col-lg-10.bg02.p-4
           .row.justify-content-center.align-items-center
             .col-lg-10
-              p Adicionalmente, la administración de contenidos implica la actualización constante de los elementos del sitio, incluyendo temas, plugins y configuraciones generales, con el fin de asegurar su correcto funcionamiento. Este proceso también contempla la aplicación de principios de usabilidad y accesibilidad, garantizando que la información sea clara, comprensible y disponible para diversos tipos de usuarios, lo que fortalece la calidad y efectividad del sitio web.
+              p Adicionalmente, la administración de contenidos implica la actualización constante de los elementos del sitio, incluyendo temas, #[em plugins] y configuraciones generales, con el fin de asegurar su correcto funcionamiento. Este proceso también contempla la aplicación de principios de usabilidad y accesibilidad, garantizando que la información sea clara, comprensible y disponible para diversos tipos de usuarios, lo que fortalece la calidad y efectividad del sitio web.
 
       separador
       #t_1_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -97,11 +97,11 @@
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Optimización del peso y formato")
               .col-md-12.mb-4.mb-md-0
-                p Las imágenes de alta resolución obtenidas directamente de cámaras digitales o repositorios suelen tener un peso elevado. Subir estos archivos sin un tratamiento previo puede saturar el servidor, consumir el espacio del alojamiento y ralentizar significativamente el tiempo de carga del Front End, afectando la experiencia del usuario y el posicionamiento en motores de búsqueda (SEO). El aprendiz debe adoptar el hábito técnico de comprimir las imágenes y utilizar formatos de nueva generación (como WebP o AVIF) antes de su carga en la biblioteca.
+                p Las imágenes de alta resolución obtenidas directamente de cámaras digitales o repositorios suelen tener un peso elevado. Subir estos archivos sin un tratamiento previo puede saturar el servidor, consumir el espacio del alojamiento y ralentizar significativamente el tiempo de carga del #[em Front End], afectando la experiencia del usuario y el posicionamiento en motores de búsqueda (SEO). El aprendiz debe adoptar el hábito técnico de comprimir las imágenes y utilizar formatos de nueva generación (como WebP o AVIF) antes de su carga en la biblioteca.
     
             .row(titulo="Metadatos y accesibilidad")
               .col-md-12.mb-4.mb-md-0
-                p Cada archivo multimedia subido genera automáticamente una página de adjunto en la base de datos. Es responsabilidad del administrador diligenciar los metadatos correspondientes, haciendo especial énfasis en el campo “texto alternativo” (Alt Text). Este elemento no visible cumple una doble función: es leído por los lectores de pantalla utilizados por personas con discapacidad visual, garantizando la accesibilidad; y proporciona contexto semántico a los motores de búsqueda, facilitando la indexación correcta del contenido.
+                p Cada archivo multimedia subido genera automáticamente una página de adjunto en la base de datos. Es responsabilidad del administrador diligenciar los metadatos correspondientes, haciendo especial énfasis en el campo “texto alternativo” (#[em Alt Text]). Este elemento no visible cumple una doble función: es leído por los lectores de pantalla utilizados por personas con discapacidad visual, garantizando la accesibilidad; y proporciona contexto semántico a los motores de búsqueda, facilitando la indexación correcta del contenido.
                 p Asimismo, la organización adecuada de la biblioteca de medios resulta esencial para mantener la eficiencia del sitio web. La correcta clasificación de los archivos mediante nombres descriptivos, fechas o carpetas virtuales permite una localización rápida de los recursos, evitando duplicidades y facilitando el mantenimiento del contenido a largo plazo.
                 p De igual manera, la reutilización estratégica de los recursos multimedia contribuye a optimizar el rendimiento del sitio. Un archivo correctamente gestionado puede ser utilizado en múltiples entradas o páginas sin necesidad de nuevas cargas, lo que reduce el consumo de almacenamiento y mejora la eficiencia operativa del sistema.
 
@@ -118,7 +118,7 @@
             .col-lg-2.d-none.d-lg-block
               img(src='@/assets/curso/Tema1/img07.svg', alt='')
             .col-lg-10
-              p Sin embargo, habilitar los comentarios exige una administración rigurosa y permanente. Si esta sección no cuenta con supervisión adecuada, el sitio web puede verse afectado por la publicación de spam (mensajes automatizados, publicidad no deseada y enlaces maliciosos generados por bots), lo cual impacta negativamente la reputación institucional, la credibilidad del contenido y la seguridad general de la plataforma. Asimismo, la ausencia de control puede derivar en la publicación de mensajes ofensivos o irrelevantes que deterioran la calidad del espacio de interacción.
+              p Sin embargo, habilitar los comentarios exige una administración rigurosa y permanente. Si esta sección no cuenta con supervisión adecuada, el sitio web puede verse afectado por la publicación de #[em spam] (mensajes automatizados, publicidad no deseada y enlaces maliciosos generados por #[em bots]), lo cual impacta negativamente la reputación institucional, la credibilidad del contenido y la seguridad general de la plataforma. Asimismo, la ausencia de control puede derivar en la publicación de mensajes ofensivos o irrelevantes que deterioran la calidad del espacio de interacción.
           p Para mitigar estos riesgos, WordPress incorpora un sistema de gestión de comentarios basado en la moderación previa. El administrador puede definir reglas de publicación desde el panel de ajustes, estableciendo filtros y condiciones de aprobación. Una práctica recomendada consiste en configurar la aprobación manual del primer comentario de cada usuario, de modo que posteriormente los comentarios de ese mismo usuario puedan publicarse de manera automática, siempre que cumplan con las normas establecidas. Adicionalmente, el sistema permite clasificar los comentarios como “aprobados”, “pendientes”, #[em “Spam”] o “papelera”, facilitando la organización y depuración del flujo de interacción.
 
       p La gestión de comentarios también incluye herramientas de respuesta y seguimiento, las cuales permiten al administrador o moderador interactuar directamente con los usuarios. Esta función es clave para resolver inquietudes, aclarar información y mantener una comunicación activa dentro del sitio web, fortaleciendo la relación entre la institución y su comunidad digital.
@@ -136,7 +136,7 @@
             .col-lg-2.col-4.col-md-3
               img(src='@/assets/curso/Tema1/img10.svg', alt='').mb-4
             .col-lg-12
-              p Por otra parte, una gestión eficiente de los comentarios contribuye a la reputación digital del sitio web, ya que un entorno ordenado, moderado y libre de spam transmite confianza a los visitantes y refuerza la imagen profesional de la institución en el entorno digital.
+              p Por otra parte, una gestión eficiente de los comentarios contribuye a la reputación digital del sitio web, ya que un entorno ordenado, moderado y libre de #[em spam] transmite confianza a los visitantes y refuerza la imagen profesional de la institución en el entorno digital.
               p Finalmente, la moderación y administración de comentarios constituye un componente esencial en la gestión de sitios web dinámicos, al garantizar la seguridad, la calidad del contenido, la interacción efectiva y la sostenibilidad de los espacios de participación digital dentro de WordPress.
 
 
