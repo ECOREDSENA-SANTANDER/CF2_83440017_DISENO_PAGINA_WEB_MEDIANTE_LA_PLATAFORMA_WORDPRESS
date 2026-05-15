@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Administración y publicación de tu proyecto Web',
+    Name: 'Administración y publicación de tu proyecto web',
     Description:
-      'El componente Administración y publicación de proyectos web desarrolla competencias técnicas y operativas orientadas a la gestión de contenidos, el diseño de la experiencia visual y el despliegue de sitios web mediante la plataforma WordPress. Asimismo, promueve el uso eficiente de herramientas de publicación dinámica, la ampliación de funcionalidades a través de plugins y la aplicación rigurosa de protocolos de seguridad, respaldo y migración. De este modo, permite transformar una estructura básica en un ecosistema digital interactivo, publicado exitosamente en la nube.',
+      'El componente Administración y publicación de proyectos web desarrolla competencias técnicas y operativas orientadas a la gestión de contenidos, el diseño de la experiencia visual y el despliegue de sitios web mediante la plataforma WordPress. Asimismo, promueve el uso eficiente de herramientas de publicación dinámica, la ampliación de funcionalidades a través de <i>plugins</i> y la aplicación rigurosa de protocolos de seguridad, respaldo y migración. De este modo, permite transformar una estructura básica en un ecosistema digital interactivo, publicado exitosamente en la nube.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -65,12 +65,12 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Extensión funcional del sitio web mediante plugins',
+        titulo: 'Extensión funcional del sitio web mediante <i>plugins</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Fundamentación técnica de los plugins',
+            titulo: 'Fundamentación técnica de los <i>plugins</i>',
             hash: 't_2_1',
           },
           {
@@ -81,7 +81,7 @@ export default {
           {
             numero: '2.3',
             titulo:
-              'Criterios de usabilidad y selección de plugins en proyectos reales',
+              'Criterios de usabilidad y selección de <i>plugins</i> en proyectos reales',
             hash: 't_2_3',
           },
         ],
@@ -104,7 +104,8 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Estructuración mediante widgets y elementos modulares',
+            titulo:
+              'Estructuración mediante <i>widgets</i> y elementos modulares',
             hash: 't_3_3',
           },
         ],
@@ -176,7 +177,7 @@ export default {
 
   glosario: [
     {
-      termino: 'Accesibilidad Web',
+      termino: 'Accesibilidad web',
       significado:
         'Conjunto de normativas y técnicas de diseño que garantizan que un sitio web pueda ser utilizado y comprendido por cualquier persona, independientemente de sus capacidades visuales, auditivas, cognitivas o motrices.',
     },
@@ -191,17 +192,17 @@ export default {
         'Panel de control o área de administración privada de WordPress. Es el entorno de trabajo al que acceden los usuarios con credenciales para publicar contenidos, instalar complementos y gestionar la base de datos.',
     },
     {
-      termino: 'Base de Datos (MySQL/MariaDB)',
+      termino: 'Base de datos (MySQL/MariaDB)',
       significado:
         'Sistema informático estructurado que almacena de manera relacional toda la información textual, configuraciones de usuario y taxonomías del sitio web, permitiendo su recuperación dinámica.',
     },
     {
-      termino: 'Biblioteca de Medios',
+      termino: 'Biblioteca de medios',
       significado:
         'Repositorio centralizado dentro del panel de administración donde se cargan, optimizan y organizan los recursos multimedia (imágenes, documentos, audios) para su posterior inserción en el diseño web.',
     },
     {
-      termino: 'Caché Web',
+      termino: 'Caché web',
       significado:
         'Tecnología de optimización que almacena copias temporales de las páginas dinámicas generadas por WordPress para servirlas de forma inmediata a los visitantes recurrentes, reduciendo la carga del servidor.',
     },
@@ -221,37 +222,37 @@ export default {
         'Interfaz nativa de redacción en WordPress que permite maquetar y diseñar el contenido fragmentándolo en bloques independientes (párrafos, imágenes, galerías, botones), facilitando la diagramación sin uso de código.',
     },
     {
-      termino: '<i>Hosting</i> (alojamiento Web)',
+      termino: '<i>Hosting</i> (alojamiento web)',
       significado:
         'Servicio tecnológico provisto por una infraestructura de servidores interconectados ininterrumpidamente a internet, que alquila espacio de almacenamiento para alojar los archivos y bases de datos de un portal público.',
     },
     {
-      termino: '<i>Localhost</i> (Servidor Local)',
+      termino: '<i>Localhost</i> (servidor local)',
       significado:
-        'Entorno de software instalado en el ordenador personal del desarrollador que emula las condiciones de un servidor de internet. Se utiliza para el diseño, pruebas y maquetación sin riesgos antes de la publicación oficial.',
+        'Entorno de <i>software</i> instalado en el ordenador personal del desarrollador que emula las condiciones de un servidor de internet. Se utiliza para el diseño, pruebas y maquetación sin riesgos antes de la publicación oficial.',
     },
     {
       termino: '<i>Plugin</i>',
       significado:
-        'Complemento o extensión de software que se instala sobre el núcleo de WordPress para añadir funcionalidades especializadas que la plataforma no incorpora por defecto (ejemplo: pasarelas de pago, cortafuegos, foros).',
+        'Complemento o extensión de <i>software</i> que se instala sobre el núcleo de WordPress para añadir funcionalidades especializadas que la plataforma no incorpora por defecto (ejemplo: pasarelas de pago, cortafuegos, foros).',
     },
     {
-      termino: 'Responsividad (Diseño Responsivo)',
+      termino: 'Responsividad (diseño responsivo)',
       significado:
         'Principio arquitectónico del diseño web que asegura que la disposición geométrica de la interfaz se adapte, escale y reordene fluidamente según el tamaño de la pantalla del dispositivo utilizado (móvil, tableta o escritorio).',
     },
     {
-      termino: 'SEO (Optimización para Motores de Búsqueda)',
+      termino: 'SEO (optimización para motores de búsqueda)',
       significado:
         'Conjunto de estrategias técnicas y de contenido orientadas a mejorar la visibilidad y el posicionamiento de un sitio web en los resultados orgánicos de buscadores como Google.',
     },
     {
-      termino: 'Tema (Theme)',
+      termino: 'Tema (<i>Theme</i>)',
       significado:
-        'Paquete integral de archivos y estilos CSS que determinan la apariencia visual, la paleta de colores, las tipografías y el esquema de distribución de la interfaz pública (Front End) en WordPress.',
+        'Paquete integral de archivos y estilos CSS que determinan la apariencia visual, la paleta de colores, las tipografías y el esquema de distribución de la interfaz pública (<i>Front End</i>) en WordPress.',
     },
     {
-      termino: '<i>Widget</i>',
+      termino: '<i><i>widget</i></i>',
       significado:
         'Bloque modular preconfigurado que ejecuta una función o muestra información específica (como un buscador o enlaces de redes sociales) y que se posiciona en áreas estructurales del diseño, como el pie de página o las barras laterales.',
     },
@@ -333,12 +334,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

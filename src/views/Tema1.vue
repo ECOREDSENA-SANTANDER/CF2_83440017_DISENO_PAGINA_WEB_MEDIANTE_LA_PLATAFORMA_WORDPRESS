@@ -12,7 +12,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img01.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 La administración de contenidos en un Sistema de Gestión de Contenidos (CMS) constituye una fase fundamental en la gestión de sitios web, al permitir la creación, edición y organización de la información sin necesidad de intervenir directamente en el código fuente. En el caso de WordPress, esta función se desarrolla a través de un conjunto de herramientas que facilitan la publicación y actualización de contenidos, garantizando que el sitio web se mantenga dinámico, estructurado y acorde con los objetivos comunicativos establecidos.
+          p.mb-0 La administración de contenidos en un Sistema de gestión de contenidos (CMS) constituye una fase fundamental en la gestión de sitios web, al permitir la creación, edición y organización de la información sin necesidad de intervenir directamente en el código fuente. En el caso de WordPress, esta función se desarrolla a través de un conjunto de herramientas que facilitan la publicación y actualización de contenidos, garantizando que el sitio web se mantenga dinámico, estructurado y acorde con los objetivos comunicativos establecidos.
             br
 
       p En este contexto, la gestión de contenidos comprende la creación de páginas y entradas, así como su organización mediante categorías, etiquetas y menús de navegación. Estos elementos permiten estructurar la información de manera lógica, favoreciendo la accesibilidad y la experiencia del usuario. Asimismo, la integración de recursos multimedia contribuye a enriquecer la presentación de los contenidos y a mejorar su impacto dentro del entorno digital.

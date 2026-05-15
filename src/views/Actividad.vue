@@ -28,127 +28,152 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué caracteriza principalmente a una entrada en WordPress dentro de la lógica de la web dinámica?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Es un contenido atemporal que no admite categorías ni etiquetas.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Es una unidad de información cronológica que puede clasificarse mediante categorías y etiquetas.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Es un archivo de configuración reservado para los administradores del servidor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Es una plantilla visual que reemplaza el tema activo del sitio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la naturaleza cronológica y taxonómica de las entradas en WordPress.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la naturaleza y edición de las entradas dinámicas.',
         },
+
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué ventaja pedagógica y técnica ofrece el editor Gutenberg en WordPress?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Obliga a escribir código HTML y CSS para cada publicación.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Convierte automáticamente cualquier entrada en una página estática.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Permite construir el contenido mediante bloques independientes y modulares.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Elimina la necesidad de usar imágenes o botones dentro del sitio.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con el editor de bloques Gutenberg como entorno modular de maquetación.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la edición de entradas mediante el editor Gutenberg.',
         },
+
         {
-          id: 4,
+          id: 3,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué función cumple la programación de publicaciones en la administración de entradas de WordPress?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto:
+                'Permite que una entrada cambie automáticamente a estado publicado en la fecha y hora definidas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Borra las entradas antiguas para mantener el sitio actualizado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Convierte una entrada en comentario aprobado automáticamente.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Desactiva la biblioteca de medios hasta que finalice la revisión editorial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la programación automática de publicaciones en WordPress.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con el flujo de trabajo en la administración de entradas.',
+        },
+
+        {
+          id: 4,
+          texto:
+            '¿Para qué resulta especialmente útil la herramienta de Edición rápida en WordPress?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Para reemplazar completamente el tema activo del sitio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Para rediseñar el editor de bloques sin acceder al panel de apariencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Para eliminar la necesidad de usar categorías y etiquetas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Para modificar datos básicos de una entrada sin abrir el editor completo.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la Edición rápida como recurso de eficiencia administrativa.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las acciones de gestión eficiente sobre entradas.',
         },
         {
           id: 5,
@@ -170,7 +195,8 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Impedir que la imagen sea visible en el Front End.',
+              texto:
+                'Impedir que la imagen sea visible en el <i>Front End</i>.',
               esCorrecta: false,
             },
             {
@@ -223,7 +249,8 @@ export default {
         },
         {
           id: 7,
-          texto: '¿Qué es un plugin en el ecosistema técnico de WordPress?',
+          texto:
+            '¿Qué es un <i>plugin</i> en el ecosistema técnico de WordPress?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -236,7 +263,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Un complemento de software que añade o modifica funcionalidades del sitio sin alterar el núcleo del CMS.',
+                'Un complemento de <i>software</i> que añade o modifica funcionalidades del sitio sin alterar el núcleo del CMS.',
               esCorrecta: true,
             },
             {
@@ -248,25 +275,25 @@ export default {
             {
               id: 'd',
               texto:
-                'Una plantilla visual que controla tipografías y colores del Front End.',
+                'Una plantilla visual que controla tipografías y colores del <i>Front End</i>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los plugins como arquitectura modular de expansión funcional.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los <i>plugins</i> como arquitectura modular de expansión funcional.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la fundamentación técnica de los plugins.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la fundamentación técnica de los <i>plugins</i>.',
         },
         {
           id: 8,
           texto:
-            'Después de instalar un plugin en WordPress, ¿qué acción permite que comience a funcionar dentro del sitio?',
+            'Después de instalar un <i>plugin</i> en WordPress, ¿qué acción permite que comience a funcionar dentro del sitio?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Activarlo desde el panel de plugins.',
+              texto: 'Activarlo desde el panel de <i>plugins</i>.',
               esCorrecta: true,
             },
             {
@@ -281,26 +308,26 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Convertirlo en widget desde el personalizador.',
+              texto: 'Convertirlo en <i>widget</i> desde el personalizador.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la diferencia entre instalar y activar un plugin.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la diferencia entre instalar y activar un <i>plugin</i>.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los procedimientos de instalación y activación de plugins.',
         },
         {
           id: 9,
           texto:
-            '¿Qué criterio indica un posible riesgo al seleccionar un plugin para un proyecto real?',
+            '¿Qué criterio indica un posible riesgo al seleccionar un <i>plugin</i> para un proyecto real?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Que el plugin tenga múltiples instalaciones activas y valoraciones positivas.',
+                'Que el <i>plugin</i> tenga múltiples instalaciones activas y valoraciones positivas.',
               esCorrecta: false,
             },
             {
@@ -323,9 +350,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los criterios de selección responsable de plugins.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los criterios de selección responsable de <i>plugins</i>.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación de usabilidad, seguridad y vigencia de plugins.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la evaluación de usabilidad, seguridad y vigencia de <i>plugins</i>.',
         },
         {
           id: 10,
@@ -336,7 +363,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Un widget exclusivo para el pie de página.',
+              texto: 'Un <i>widget</i> exclusivo para el pie de página.',
               esCorrecta: false,
             },
             {
@@ -347,7 +374,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Un plugin robusto de comercio electrónico, como WooCommerce.',
+                'Un <i>plugin</i> robusto de comercio electrónico, como WooCommerce.',
               esCorrecta: true,
             },
             {
@@ -357,9 +384,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con la selección de plugins según necesidades funcionales del proyecto.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con la selección de <i>plugins</i> según necesidades funcionales del proyecto.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los casos de uso reales de los plugins en WordPress.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los casos de uso reales de los <i>plugins</i> en WordPress.',
         },
 
         {
@@ -456,7 +483,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Sustituye la biblioteca de medios por una vista previa del Front End.',
+                'Sustituye la biblioteca de medios por una vista previa del <i>Front End</i>.',
               esCorrecta: false,
             },
             {
@@ -474,13 +501,14 @@ export default {
         {
           id: 14,
           texto:
-            '¿Para qué se utilizan principalmente los widgets en la diagramación de un sitio WordPress?',
+            '¿Para qué se utilizan principalmente los <i>widgets</i> en la diagramación de un sitio WordPress?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para editar el archivo wp-config.php desde el Front End.',
+              texto:
+                'Para editar el archivo wp-config.php desde el <i>Front End</i>.',
               esCorrecta: false,
             },
             {
@@ -492,7 +520,7 @@ export default {
             {
               id: 'c',
               texto:
-                'Para reemplazar por completo los plugins instalados en el servidor.',
+                'Para reemplazar por completo los <i>plugins</i> instalados en el servidor.',
               esCorrecta: false,
             },
             {
@@ -503,9 +531,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los widgets como elementos modulares de estructuración visual.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los <i>widgets</i> como elementos modulares de estructuración visual.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la diagramación mediante widgets y elementos modulares.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con la diagramación mediante <i>widgets</i> y elementos modulares.',
         },
         {
           id: 15,

@@ -91,7 +91,7 @@
     
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 2.
-      span NO TIENE nombres
+      span Proceso de exportación e importación de datos en Wordpress
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-10
         img(src='@/assets/curso/Tema4/FIG2.svg', alt='Diagrama del proceso de exportación e importación de datos en WordPress. Muestra dos fases: la exportación desde un sitio de origen (seleccionando contenido para generar un archivo XML/WXR) y la importación en un sitio de destino (cargando el archivo para reconstruir automáticamente las entradas y sus imágenes). Incluye un caso práctico de migración de 500 artículos hacia un nuevo diseño.')

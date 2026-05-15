@@ -5,14 +5,14 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Extensión Funcional del Sitio web mediante #[em Plugins]
+      h1 Extensión funcional del sitio web mediante #[em plugins]
     
     .bloque-texto-g.bloque-texto-g--inverso.bg03.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/Tema2/img01.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Un Si bien el núcleo (Core) de WordPress proporciona un robusto sistema de gestión de contenidos, diseño y categorización taxonómica, sus capacidades nativas están concebidas para satisfacer necesidades generales de publicación. Cuando los requerimientos del cliente o el análisis del proyecto exigen características especializadas, tales como la venta de productos, la gestión de matrículas académicas, el blindaje perimetral contra ciberataques o la optimización avanzada para motores de búsqueda, el entorno de trabajo debe escalarse. Esta ampliación tecnológica se logra mediante la arquitectura modular de los #[em plugins.]
+          p.mb-0 Si bien el núcleo (Core) de WordPress proporciona un robusto sistema de gestión de contenidos, diseño y categorización taxonómica, sus capacidades nativas están concebidas para satisfacer necesidades generales de publicación. Cuando los requerimientos del cliente o el análisis del proyecto exigen características especializadas, tales como la venta de productos, la gestión de matrículas académicas, el blindaje perimetral contra ciberataques o la optimización avanzada para motores de búsqueda, el entorno de trabajo debe escalarse. Esta ampliación tecnológica se logra mediante la arquitectura modular de los #[em plugins.]
             br
     separador
     #t_2_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -51,6 +51,7 @@
     p La gestión de estos módulos se centraliza en el submenú #[em “plugins”], ubicado dentro del panel de administración de WordPress. Es importante tener en cuenta que esta capacidad de expansión técnica es una característica propia de la versión autoalojada (WordPress.org); en contraste, la versión comercial en sus planes básicos (WordPress.com) presenta restricciones para la instalación de #[em plugins] externos, limitando las posibilidades de personalización del sitio web.
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-8
+        p El proceso para incorporar nuevas herramientas a la plataforma contempla tres metodologías principales, cuya elección depende del origen del software y de las condiciones técnicas del servidor:
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Instalación desde el repositorio oficial")
             .col-md-12.mb-4.mb-md-0
@@ -112,9 +113,9 @@
           .col-lg-12
             p En cuanto a su aplicación práctica, los #[em plugins] permiten resolver necesidades específicas dentro de distintos tipos de proyectos web. Por ejemplo: en el desarrollo de un sitio de comercio electrónico, es posible integrar herramientas especializadas que gestionen productos, pagos y envíos, ampliando significativamente las funcionalidades del sistema base.
             p En proyectos institucionales o educativos, resulta fundamental implementar #[em plugins] orientados a la seguridad, como aquellos que controlan accesos no autorizados, así como herramientas de optimización de rendimiento, que mejoran los tiempos de carga y la estabilidad del sitio ante múltiples usuarios concurrentes.
-            p Por otra parte, la instalación controlada de #[em plugins] contribuye a mantener un equilibrio entre funcionalidad y rendimiento. Un sitio optimizado no depende de la cantidad de herramientas instaladas, sino de la pertinencia y correcta configuración de las mismas, lo que garantiza un entorno más estable y eficiente.
-            p Es recomendable realizar auditorías periódicas de los #[em plugins] instalados, con el fin de identificar aquellos que no se encuentran en uso o que pueden ser reemplazados por soluciones más eficientes. Esta práctica contribuye a reducir riesgos de seguridad y a mejorar el desempeño general del sitio web.
-            p La gestión estratégica de #[em plugins] permite consolidar un entorno digital seguro, funcional y alineado con los objetivos del proyecto. La correcta toma de decisiones en este ámbito fortalece la calidad del sitio web y optimiza su funcionamiento dentro del ecosistema digital.
+    p Por otra parte, la instalación controlada de #[em plugins] contribuye a mantener un equilibrio entre funcionalidad y rendimiento. Un sitio optimizado no depende de la cantidad de herramientas instaladas, sino de la pertinencia y correcta configuración de las mismas, lo que garantiza un entorno más estable y eficiente.
+    p Es recomendable realizar auditorías periódicas de los #[em plugins] instalados, con el fin de identificar aquellos que no se encuentran en uso o que pueden ser reemplazados por soluciones más eficientes. Esta práctica contribuye a reducir riesgos de seguridad y a mejorar el desempeño general del sitio web.
+    p La gestión estratégica de #[em plugins] permite consolidar un entorno digital seguro, funcional y alineado con los objetivos del proyecto. La correcta toma de decisiones en este ámbito fortalece la calidad del sitio web y optimiza su funcionamiento dentro del ecosistema digital.
 
 
 
