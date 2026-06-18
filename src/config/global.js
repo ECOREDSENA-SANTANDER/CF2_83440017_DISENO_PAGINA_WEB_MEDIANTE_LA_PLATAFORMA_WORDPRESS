@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Administración y publicación de tu proyecto web',
+    Name: 'Administración y publicación del proyecto web',
     Description:
       'El componente Administración y publicación de proyectos web desarrolla competencias técnicas y operativas orientadas a la gestión de contenidos, el diseño de la experiencia visual y el despliegue de sitios web mediante la plataforma WordPress. Asimismo, promueve el uso eficiente de herramientas de publicación dinámica, la ampliación de funcionalidades a través de <i>plugins</i> y la aplicación rigurosa de protocolos de seguridad, respaldo y migración. De este modo, permite transformar una estructura básica en un ecosistema digital interactivo, publicado exitosamente en la nube.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -290,7 +290,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional G06. Responsable del ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -306,6 +307,11 @@ export default {
         {
           nombre: 'Carlos Andres Bonza Reyes',
           cargo: 'Instructor virtual',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

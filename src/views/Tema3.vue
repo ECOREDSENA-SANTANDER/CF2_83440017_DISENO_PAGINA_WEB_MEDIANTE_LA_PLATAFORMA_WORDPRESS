@@ -36,8 +36,8 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100.color-primario
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
-            texto="Pódcast"
-            :audio="require('@/assets/curso/Tema3/img03.svg')"
+            texto="Podcast"
+            :audio="require('@/assets/curso/Tema3/podcast.mp4')"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 

@@ -17,7 +17,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Administración y publicación de tu proyecto Web',
+      tema: 'Administración y publicación del proyecto web',
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> verificar la comprensión de los conceptos fundamentales relacionados con la administración de contenidos, la instalación de <i>plugins</i>, la personalización visual, el respaldo de la información y la publicación del sitio web en WordPress.',

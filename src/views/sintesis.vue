@@ -7,7 +7,7 @@
     
 
     .row.justify-content-center
-      .col-lg-12.mb-5.bgs.p-4.brad
+      .col-lg-11.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Diagrama de la administración y publicación de un proyecto web en WordPress, dividido en gestión de contenidos (entradas, medios, comentarios y plugins) y diseño y operaciones técnicas (experiencia de usuario, temas, widgets, respaldo y publicación).")
       .col-auto

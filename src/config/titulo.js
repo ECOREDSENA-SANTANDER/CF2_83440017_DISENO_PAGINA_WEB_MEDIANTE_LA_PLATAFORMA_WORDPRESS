@@ -1,1 +1,1 @@
-module.exports = 'Administración y publicación de tu proyecto Web'
+module.exports = 'Administración y publicación del proyecto web'
